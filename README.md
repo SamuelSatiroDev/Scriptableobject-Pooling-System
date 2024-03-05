@@ -8,21 +8,21 @@ Unity 2020 or higher
 
 Just import it into your project and follow the tutorial
 
-🔹 PoolingManager.HandlerInitialize(); ✶ Initializes the pooling system. Can be used in the Start or Awake method.
+🔹 PoolingManager or PoolingManagerStandard.HandlerInitialize(); ✶ Initializes the pooling system. Can be used in the Start or Awake method.
 
-🔹 GameObject pool = PoolingManager.HandlerOnGet(); ✶ Returns a gameobject pool.
+🔹 GameObject pool = PoolingManager or PoolingManagerStandard.HandlerOnGet(); ✶ Returns a gameobject pool.
 
-🔹 PoolingManager.HandlerRelease(); ✶ Returns a gameobject back in the pooling system.
+🔹 PoolingManager or PoolingManagerStandard.HandlerRelease(); ✶ Returns a gameobject back in the pooling system.
 
-🔹 PoolingManager.HandlerReleaseAll(); ✶ Returns all gameobjects back into the pooling system.
+🔹 PoolingManager or PoolingManagerStandard.HandlerReleaseAll(); ✶ Returns all gameobjects back into the pooling system.
 
-🔹 PoolingManager.AddListenerGet(); ✶
+🔹 PoolingManager or PoolingManagerStandard.AddListenerGet(); ✶ Event that is triggered when some gameobject pool is generated.
 
-🔹 PoolingManager.RemoveListenerGet();
+🔹 PoolingManager or PoolingManagerStandard.RemoveListenerGet(); ✶ Remove event method.
 
-🔹 PoolingManager.AddListenerRelease();
+🔹 PoolingManager or PoolingManagerStandard.AddListenerRelease(); ✶ Event that is triggered when returning gameobject to the pooling system.
 
-🔹 PoolingManager.RemoveListenerRelease();
+🔹 PoolingManager or PoolingManagerStandard.RemoveListenerRelease(); ✶ Remove event method.
 
 🔷Create the scriptable object
 ![Media 05_03_2024 07-10-16](https://github.com/SamuelSatiroDev/Scriptableobject-Pooling-System/assets/107225086/2811eb44-d2de-4f5e-83f7-a157eb0eced2)
