@@ -1,3 +1,5 @@
 Import the system into your project and simply use
 
-https://www.youtube.com/watch?v=yyOzL2PgGfA
+Tutorial: https://www.youtube.com/watch?v=yyOzL2PgGfA
+buymeacoffee: https://www.buymeacoffee.com/baltared
+Discord: https://discord.gg/unJ7aEh65R
