@@ -1,28 +1,53 @@
-Unity 2020 or higher
-
-❓Tutorial: https://www.youtube.com/watch?v=yyOzL2PgGfA
-
-🔴Buymeacoffee: https://www.buymeacoffee.com/baltared
-
-🔴Discord: https://discord.gg/unJ7aEh65R
-
-Just import it into your project and follow the tutorial
-
-🔹 PoolingManager or PoolingManagerStandard.HandlerInitialize(); ✶ Initializes the pooling system. Can be used in the Start or Awake method.
-
-🔹 GameObject pool = PoolingManager or PoolingManagerStandard.HandlerOnGet(); ✶ Returns a gameobject pool.
-
-🔹 PoolingManager or PoolingManagerStandard.HandlerRelease(); ✶ Returns a gameobject back in the pooling system.
-
-🔹 PoolingManager or PoolingManagerStandard.HandlerReleaseAll(); ✶ Returns all gameobjects back into the pooling system.
-
-🔹 PoolingManager or PoolingManagerStandard.AddListenerGet(); ✶ Event that is triggered when some gameobject pool is generated.
-
-🔹 PoolingManager or PoolingManagerStandard.RemoveListenerGet(); ✶ Remove event method.
-
-🔹 PoolingManager or PoolingManagerStandard.AddListenerRelease(); ✶ Event that is triggered when returning gameobject to the pooling system.
-
-🔹 PoolingManager or PoolingManagerStandard.RemoveListenerRelease(); ✶ Remove event method.
+<h1>ScriptableObject Pooling System</h1>
+<br>
+<h3>Unity 2020 or higher</h3>
+<br>
+❓ Tutorial: https://www.youtube.com/watch?v=yyOzL2PgGfA <br>
+📌 Buymeacoffee: https://www.buymeacoffee.com/baltared <br>
+📌 Discord: https://discord.gg/unJ7aEh65R<br>
+<br>
+<br>
+<br>
+<b>Just import it into your project and follow the tutorial</b><br>
+<br>
+🔹 <b>Initializes the pooling system. Can be used in the Start or Awake method:</b><br>
+<i>(Unity 2021 or higher)</i>PoolingManager.HandlerInitialize()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.HandlerInitialize()<br>
+<br>
+<br>
+🔹 <b>GameObject pool. Returns a gameobject pool:</b><br>
+<i>(Unity 2021 or higher)</i>PoolingManager.HandlerOnGet()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.HandlerOnGet()<br>
+<br>
+<br>
+🔹<b>Returns a gameobject back in the pooling system:</b><br>
+<i>(Unity 2021 or higher)</i>PoolingManager.HandlerRelease()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.HandlerRelease() <br>
+<br>
+<br>
+🔹 <b>Returns all gameobjects back into the pooling system:</b><br>
+<i>(Unity 2021 or higher)</i>PoolingManager.HandlerReleaseAll()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.HandlerReleaseAll()<br>
+<br>
+<br>
+🔹 <b>Event that is triggered when some gameobject pool is generated:</b><br>
+Add<br>
+<i>(Unity 2021 or higher)</i>PoolingManager.AddListenerGet()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.AddListenerGet()<br>
+<br>
+Remove<br>
+<i>(Unity 2021 or higher)</i>PoolingManager.RemoveListenerGet()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.RemoveListenerGet()<br>
+<br>
+<br>
+🔹 <b>Event that is triggered when returning gameobject to the pooling system:</b><br>
+Add<br>
+<i>(Unity 2021 or higher)</i>PoolingManager.AddListenerRelease()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.AddListenerRelease()<br>
+<br>
+Remove<br>
+<i>(Unity 2021 or higher)</i>PoolingManager.RemoveListenerRelease()<br>
+<i>(Unity 2020)</i>PoolingManagerStandard.RemoveListenerRelease()<br>
 
 🔷Create the scriptable object
 ![Media 05_03_2024 07-10-16](https://github.com/SamuelSatiroDev/Scriptableobject-Pooling-System/assets/107225086/2811eb44-d2de-4f5e-83f7-a157eb0eced2)
