@@ -1,7 +1,5 @@
 <h1>ScriptableObject Pooling System</h1>
-<br>
 <h3>Unity 2020 or higher</h3>
-<br>
 ❓ Tutorial: https://www.youtube.com/watch?v=yyOzL2PgGfA <br>
 📌 Buymeacoffee: https://www.buymeacoffee.com/baltared <br>
 📌 Discord: https://discord.gg/unJ7aEh65R<br>
